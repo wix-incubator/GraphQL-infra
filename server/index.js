@@ -1,5 +1,5 @@
 import {ApolloServer} from "apollo-server-express";
-import {gql} from "apollo-server";
+import {gql} from "apollo-boost";
 const express = require('express');
 import {loaders} from './services/dataLoaders';
 const resolvers = require('./resolvers').default;
