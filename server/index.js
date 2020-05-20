@@ -27,4 +27,4 @@ const app = express();
 
 server.applyMiddleware({app});
 
-app.listen(4000, () => console.log(`Now browse to localhost:4000/${server.graphqlPath}`));
+app.listen(4000, () => console.log(`Now browse to localhost:4000${server.graphqlPath}`));
